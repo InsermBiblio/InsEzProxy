@@ -1,0 +1,12 @@
+# FOURNISSEURS
+# ============
+
+# BASES DE DONNEES
+# ================
+
+# TESTS INSMI
+IncludeFile authorization/inist/TestsInsmi
+
+# COMMON
+# ======
+IncludeFile authorization/common.txt

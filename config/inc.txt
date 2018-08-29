@@ -1,0 +1,21 @@
+# FOURNISSEURS
+# ============
+# ACS
+IncludeFile authorization/oclc/AmericanChemicalSociety
+
+# SOCIETE CHIMIQUE DE FRANCE
+IncludeFile authorization/other/LActualiteChimique
+
+
+# BASES DE DONNEES
+# ================
+
+# Thieme Connect
+IncludeFile authorization/oclc/ThiemeConnect
+
+# TESTS INC
+IncludeFile authorization/inist/TestsInc
+
+# COMMON
+# ======
+IncludeFile authorization/common.txt
