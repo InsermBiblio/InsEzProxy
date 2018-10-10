@@ -96,11 +96,3 @@ ProxySSL <?php echo $proxySSL;
 Group <?php echo getenv('GATE_NAME'); ?>
 
 IncludeFile ./<?php echo getenv('GATE_NAME'); ?>.txt
-
-#Group iop
-#
-#IncludeFile ./iop.txt
-
-Group reaxys
-
-IncludeFile ./reaxys.txt
