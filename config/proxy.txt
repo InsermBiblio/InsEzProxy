@@ -69,11 +69,17 @@ IncludeFile authorization/other/FederationOfAmericanSocietiesForExperimentalBiol
 # GENETICS SOCIETY OF AMERICA
 IncludeFile authorization/other/GeneticsSocietyOfAmerica
 
+# Highwire Press
+IncludeFile authorization/oclc/Highwire
+
 # IOS PRESS
 IncludeFile authorization/oclc/IOSPress
 
 # MARY ANN LIEBERT
 IncludeFile authorization/oclc/Liebert
+
+# MIT Press
+IncludeFile authorization/other/MitPress
 
 # NEJM
 IncludeFile authorization/other/NEJMJournalWatch
