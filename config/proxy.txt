@@ -12,6 +12,9 @@ IncludeFile authorization/other/TheAmericanAssociationOfImmunologists
 # ACS
 IncludeFile authorization/oclc/AmericanChemicalSociety
 
+# AHA JOURNALS
+IncludeFile authorization/other/AhaJournals
+
 # AMERICAN SOCIETY FOR CELL BIOLOGY
 IncludeFile authorization/other/TheAmericanSocietyForCellBiology
 
@@ -38,6 +41,9 @@ IncludeFile authorization/other/AmericanSocietyForPharmacolgyAndExperimentalTher
 
 # ASPB
 IncludeFile authorization/other/AmericanSocietyOfPlantBiologists
+
+# BIVI AFNOR
+IncludeFile authorization/other/BiviAfnor
 
 # BMC
 IncludeFile authorization/oclc/BiomedCentral
@@ -93,9 +99,156 @@ IncludeFile authorization/other/SocietyForNeurosciences
 # BASES DE DONNEES
 # ================
 
-# TESTS INSB
-IncludeFile authorization/inist/TestsInsb
+# TESTS INSERM
+IncludeFile authorization/other/TestsInserm
 
 # COMMON
 # ======
-IncludeFile authorization/common.txt
+#IncludeFile authorization/common.txt
+
+# Algebraic Geometry
+IncludeFile authorization/other/AlgebraicGeometry
+
+# Annual reviews
+IncludeFile authorization/oclc/AnnualReviews
+
+# ASCE Library
+IncludeFile authorization/other/ASCElibrary
+
+# The Arabidopsis Information Resource
+IncludeFile authorization/oclc/Arabidopsis
+
+# Arxiv
+IncludeFile authorization/other/Arxiv
+
+# BMJ LICENCES
+IncludeFile authorization/oclc/BMJJournals
+
+# BREPOLS ONLINE
+IncludeFile authorization/oclc/Brepols
+
+# BRILL
+IncludeFile authorization/oclc/BrillOnline
+
+# Cambridge University Press
+IncludeFile authorization/oclc/CambridgeJournalsOnline
+
+# The Cambridge Crystallographic Data Centre
+IncludeFile authorization/other/ccdc
+
+# Cell Press
+IncludeFile authorization/oclc/CellPress
+
+# CLASSIQUES GARNIER
+IncludeFile authorization/other/ClassiquesGarnier
+
+# DE GRUYTER 
+IncludeFile authorization/oclc/DeGruyterOnline
+
+# DRANT Droits Antiques MISHA
+IncludeFile authorization/other/Drant
+
+# EDP
+IncludeFile authorization/other/EDPSciences
+
+# ELSEVIER EI EBOOK ARCH 
+IncludeFile authorization/oclc/ElsevierHealthJournals
+IncludeFile authorization/oclc/ElsevierScienceDirectAndScopus
+
+# EMERALD
+IncludeFile authorization/oclc/EmeraldInsight
+
+# EMS
+IncludeFile authorization/other/EMSPublishingHouse
+
+# Faculty of 1000
+IncludeFile authorization/oclc/f1000
+
+# GSL
+IncludeFile authorization/other/GeologicalSocietyOfLondon
+
+# HAL
+IncludeFile authorization/other/Hal
+
+# IOP PUBLISHING
+IncludeFile authorization/oclc/InstituteOfPhysics
+
+# Isidore
+IncludeFile authorization/other/Isidore
+
+# Mit Cognet
+IncludeFile authorization/other/MitCognet
+
+# Nature
+IncludeFile authorization/oclc/NaturePublishing
+
+# Numerique Premium
+IncludeFile authorization/other/NumeriquePremium
+
+# OPENEDITION BOOKS EBOOK
+IncludeFile authorization/oclc/OpenEdition
+
+# OVID
+IncludeFile authorization/oclc/Ovid
+
+# OUP
+IncludeFile authorization/oclc/OxfordJournals
+
+# Plosone
+IncludeFile authorization/other/Plosone
+
+# PNAS
+IncludeFile authorization/oclc/ProceedingsOfTheNationalAcademyOfSciences
+
+# Projet Euclid Duke Mathematical Journal
+IncludeFile authorization/other/Projecteuclid
+
+# Proquest
+IncludeFile authorization/oclc/Proquest
+
+# Royal Society Publishing
+IncludeFile authorization/oclc/RoyalSocietyPublishing
+
+# Safari Books Online
+IncludeFile authorization/oclc/SafariBooks
+
+# Scielo
+IncludeFile authorization/other/Scielo
+
+# RSC
+IncludeFile authorization/oclc/RoyalSocietyOfChemistry
+
+# SAGE
+IncludeFile authorization/oclc/SagePublications
+
+# SPRINGER
+IncludeFile authorization/oclc/SpringerLink
+
+# Taylor & Francis
+IncludeFile authorization/oclc/TaylorAndFrancisOnline
+
+# UNIVERSITY OF CHICAGO PRESS
+IncludeFile authorization/oclc/UniversityOfChicagoPress
+
+# WILEY
+IncludeFile authorization/oclc/WileyOnlineLibrary
+
+IncludeFile authorization/other/bdsp
+IncludeFile authorization/oclc/ChadwyckDatabase
+IncludeFile authorization/oclc/Crossref
+IncludeFile authorization/oclc/GaleInfoTrac
+IncludeFile authorization/other/IcsdFiz
+IncludeFile authorization/oclc/InCites
+IncludeFile authorization/oclc/WebOfKnowledge
+
+IncludeFile authorization/oclc/PubMed
+
+# EBSCO PUBLISHING APA
+# =================
+IncludeFile authorization/oclc/EBSCOHost
+
+IncludeFile authorization/oclc/EBSCOLinkSource
+
+IncludeFile authorization/other/OclcFirstSearch
+IncludeFile authorization/oclc/Crossref
+IncludeFile authorization/other/DOISystem
