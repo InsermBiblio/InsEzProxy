@@ -1,8 +1,21 @@
-Title HighWire Press
-URL http://home.highwire.org/
+#Option NoX-Forwarded-For
+#HTTPHeader X-JSON
+MimeFilter application/json .* javascript
+T Highwire
+U http://www.highwire.org
+U http://home.highwire.org/
+U http://clinchem.aaccjnls.org
+HJ jalm.aaccjnls.org
+HJ clinchem.aaccjnls.org
 HJ highwire.org
 HJ highwire.stanford.edu
 HJ home.highwire.org
 HJ www.highwire.org
+DJ aaccjnls.org
 DJ highwire.org
 DJ stanford.edu
+DJ intl.highwire.org
+#Option X-Forwarded-For
+Find http:\/\/
+Replace http://
+
