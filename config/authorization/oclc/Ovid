@@ -1,21 +1,66 @@
 # http://www.oclc.org/support/services/ezproxy/documentation/db/ovid.en.html
 
 # When using Ovid without content from Primal Pictures, the following shorter database definition should be used in config.txt:
-Title Ovid
+Option CookiePassThrough
+Title Ovid HTTPS (updated 20190416)
+HTTPHeader -request -process X-XSRF-Token
+HTTPHeader -request -process Set-Cookie
 URL http://ovidsp.ovid.com/autologin.html
-Host https://ovidsp.ovid.com
-Host ovidsp.tx.ovid.com
-Host gateway.ovid.com
-Host anatomy.tv
-Host https://anatomy.tv
-Host https://secure.anatomy.tv
+HJ https://ovidsp.ovid.com
+HJ ovidsp.ovid.com
+HJ https://oce.ovid.com
+HJ oce.ovid.com
+HJ https://oce.ovid.com
+HJ gateway.ovid.com
+HJ https://gateway.ovid.com
+HJ insights.ovid.com
+HJ https://insights.ovid.com
+HJ ovidsp.tx.ovid.com
+HJ https://ovidsp.tx.ovid.com
+HJ ovidsp.uk.ovid.com
+HJ auth.jbisumari.org
+HJ https://auth.jbisumari.org
+HJ sumari-prod-1.srv.jbisumari.org
+HJ login.wolterskluwer.com
+HJ pt.wkhealth.com
+HJ access.ovid.com
+HJ https://access.ovid.com
+HJ content.wkhealth.com
+HJ ovid.visiblebody.com
+HJ http://ovidsp.dc1.ovid.com
+HJ https://ovidsp.dc1.ovid.com
+HJ http://ovidsp.dc2.ovid.com
+HJ https://ovidsp.dc2.ovid.com
+HJ http://graphics.dc1.ovid.com
+HJ https://graphics.dc1.ovid.com
+HJ http://graphics.dc2.ovid.com
+HJ https://graphics.dc2.ovid.com
+HJ http://acs.dc1.ovid.com
+HJ https://acs.dc1.ovid.com
+HJ http://acs.dc2.ovid.com
+HJ https://acs.dc2.ovid.com
+HJ http://nursing.dc1.ovid.com
+HJ https://nursing.dc1.ovid.com
+HJ http://nursing.dc2.ovid.com
+HJ https://nursing.dc2.ovid.com
+DJ jbisumari.org
+DJ wolterskluwer.com
 DJ ovid.com
-DJ anatomy.tv
+DJ dc1.ovid.com
+DJ dc2.ovid.com
+DJ wkhealth.com
+DJ visiblebody.com
 Find returnUrl=http://
 Replace returnUrl=http://^A
 Find id="returnUrl" value="http://
 Replace id="returnUrl" value="http://^A
-
+Find action="http://
+Replace action="http://^A
+NeverProxy assets.ovid.com
+Option Cookie
+HJ nursing.ovid.com
+HJ anatomy.tv
+DJ anatomy.tv
 # When using Ovid with content from Primal Pictures, the following longer database definition should be used in config.txt:
 #
 #     Title Ovid including Primal Pictures
