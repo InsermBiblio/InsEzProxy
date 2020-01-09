@@ -913,6 +913,8 @@ HJ www.biochemsoctrans.org:80
 HJ www.portlandpress.com:80
 	http://www.biochemsoctrans.org/
 47	Rupress	13	
+HJ https://rupress.org
+HJ rupress.org
 H jgp.rupress.org:80
 H www.jgp.org:80
 H jem.rupress.org:80
@@ -2492,37 +2494,18 @@ H dx.doi.org:80
 	http://dx.doi.org
 96	Taylor & Francis (updated 20180806)	21	
 DJ literatumonline.com
-HJ tandfonline.com:443
-HJ tandfprod.literatumonline.com:80
-DJ tandfonline.com
-HJ www.journalsonline.tandf.co.uk:80
-HJ tandfonline.com:80
+HJ tandfonline.com
 HJ amstat.tandfonline.com:80
 HJ afs.tandfonline.com:80
 HJ journalsonline.tandf.co.uk:80
 HJ www.tandfonline.com:80
-H www.tandfonline.com:443
-	https://www.tandfonline.com
+https://www.tandfonline.com
 97	Taylor Francis eBooks (updated 20190322)	11	
 DJ taylorfrancis.com
 DJ taylorandfrancis.com
-HJ secure.taylorandfrancis.com:80
-HJ secure.taylorandfrancis.com:443
-HJ secure.taylorfrancis.com:80
-HJ secure.taylorfrancis.com:443
-HJ accounts.taylorfrancis.com:80
-HJ accounts.taylorfrancis.com:443
-HJ events.taylorandfrancis.com:80
-HJ events.taylorandfrancis.com:443
-HJ api.taylorfrancis.com:80
-HJ api.taylorfrancis.com:443
-HJ api.taylorandfrancis.com:80
-HJ api.taylorandfrancis.com:443
-HJ taylorfrancis.com:80
-HJ taylorfrancis.com:443
 HJ www.taylorfrancis.com:80
 H www.taylorfrancis.com:443
-	https://www.taylorfrancis.com
+https://www.taylorfrancis.com
 98	University of Chicago Press Journals	22	
 DJ uchicago.edu
 HJ journals.uchicago.edu:80
