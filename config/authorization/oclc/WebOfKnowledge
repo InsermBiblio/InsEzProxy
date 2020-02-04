@@ -1,5 +1,4 @@
 OPTION Cookiepassthrough
-PHE apps.clarivate.com$ apps-clarivate-com
 Title Web of Knowledge (updated 20191111)
 HTTPHeader -request -process X-1P-WOS-SID
 HTTPHeader -request -process X-1P-WOS-No-Action
@@ -10,23 +9,6 @@ HTTPHeader -request -process bm_sz
 HTTPHeader -request -process _abck
 URL http://www.webofknowledge.com
 HJ https://www.webofknowledge.com
-HJ HJ https://jcr.incites.thomsonreuters.com
-HJ HJ jcr.incites.thomsonreuters.com
-HJ about.esi.incites.thomsonreuters.com
-HJ about.jcr.incites.thomsonreuters.com
-HJ charts.webofknowledge.com
-HJ cm.webofknowledge.com
-HJ https://esi.incites.thomsonreuters.com
-HJ https://incites.thomsonreuters.com
-HJ incites.isiknowledge.com
-HJ login.incites.thomsonreuters.com 
-DJ incites.thomsonreuters.com
-HJ isi01.isiknowledge.com
-HJ https://proview.thomsonreuters.com
-HJ proview.thomsonreuters.com
-HJ diipcs.webofknowledge.com
-HJ error.incites.thomsonreuters.com
-HJ esi.incites.thomsonreuters.com
 HJ http://webofknowledge.com
 HJ https://webofknowledge.com
 HJ www.webofknowledge.com
@@ -66,7 +48,6 @@ HJ https://app.webofknowledge.com
 DJ app.webofknowledge.com
 DJ dl3iz8tnp4bmj.cloudfront.net
 DJ d3rm6si6l6yzgk.cloudfront.net
-DJ clarivate.com
 Find value="http://
 Replace value="http://^A
 Find VALUE="http://
@@ -83,11 +64,7 @@ Find "CIT.GATEWAY_URL">gateway.webofknowledge.com
 Replace "CIT.GATEWAY_URL">^pgateway.webofknowledge.com^
 Find value='gateway.webofknowledge.com/gateway/Gateway.cgi'
 Replace value='^pgateway.webofknowledge.com^/gateway/Gateway.cgi'
-Find "apps.clarivate.com/
-Replace "^papps.clarivate.com^/
 OPTION COOKIE
-Option DomainCookieOnly
-
 Title Researcher ID
 URL http://www.researcherid.com
 DJ researcherid.com

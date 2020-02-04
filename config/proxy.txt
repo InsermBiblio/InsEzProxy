@@ -206,6 +206,9 @@ IncludeFile authorization/oclc/DeGruyterOnline
 # DRANT Droits Antiques MISHA
 IncludeFile authorization/other/Drant
 
+# Endnote Online and Incites
+IncludeFile authorization/oclc/EndnoteOnlineandIncites
+
 # EDP
 IncludeFile authorization/other/EDPSciences
 
