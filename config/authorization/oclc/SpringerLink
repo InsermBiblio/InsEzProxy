@@ -4,6 +4,8 @@ OPTION DOMAINCOOKIEONLY
 Title SpringerLink
 URL http://link.springer.com
 URL https://link.springer.com
+URL https://experiments.springernature.com
+HJ https://experiments.springernature.com
 HJ aa.springer.de
 HJ download.springer.com
 HJ ebooks.springerlink.com
@@ -22,5 +24,6 @@ DJ sprn.gr
 DJ springer-ny.com
 DJ springerlink.com
 DJ springer.com
+DJ springernature.com
 NeverProxy static-content.springer.com
 OPTION COOKIE
