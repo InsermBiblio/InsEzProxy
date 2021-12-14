@@ -9,9 +9,6 @@ cleanup-docker: ## remove all insezproxy docker image
 	test -z "$$(docker ps -a | grep insezproxy)" || \
             docker rm --force $$(docker ps -a | grep insezproxy | awk '{ print $$1 }')
 
-run-dev: ## run insezproxy for dev environment
-	docker-compose -f docker-compose.dev.yml up
-
 run-prod: ## run insezproxy for production environment
 	docker-compose -f docker-compose.prod.yml up -d
 

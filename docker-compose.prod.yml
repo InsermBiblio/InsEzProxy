@@ -1,16 +1,31 @@
-version: '2'
+version: '3.5'
 services:
     proxy:
-        extends:
-            file: ./docker-compose.yml
-            service: ezproxy_prod
+        image: vsnexus-registry.intra.inist.fr:8083/insermbiblio/insezproxy:6.3.5
+        volumes:
+            - ./config:/usr/local/ezproxy/config
+        ports:
+            - 80
+            - 443
+        environment:
+            env: PROD
+            ADMIN_LOGIN: ${ADMIN_LOGIN}
+            ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+            GATE_SUFFIX: ${GATE_SUFFIX}
+            EZ_TICKET_URL: ${EZ_TICKET_URL}
+            EZ_TICKET_SECRET: ${EZ_TICKET_SECRET}
         volumes:
             - ./config:/usr/local/ezproxy/config
             - ./logs:/usr/local/ezproxy/logs
         env_file:
             - ./env/proxy.env
-        network_mode: bridge
         ports:
             - "192.168.128.213:80:80"
             - "192.168.128.213:443:443"
         restart: always
+        networks:
+            - insfrontend
+
+networks:
+  insfrontend:
+    external: true
